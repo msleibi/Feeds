@@ -18,7 +18,7 @@ public class Feeds {
      * @param args the command line arguments
      */
     public static void log(Object message) {
-        System.out.println(message);
+        System.out.println(message) ;
     }
 
     public static int calcCPU(long cpuStartTime, long elapsedStartTime, int cpuCount) {
